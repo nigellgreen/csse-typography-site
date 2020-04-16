@@ -1,0 +1,93 @@
+html,
+body {
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url('img/notes-clipart-gray.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+header,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4d004d;
+    margin-top: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: #4d004d;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.section,
+footer,
+.footer {
+    margin-bottom: 60px;
+    padding: 10 90px;
+}
+
+p {
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+a:link {
+    color: #4d004d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6600cc;
+}
+
+a:hover {
+    color: #b300b3;
+}
+
+.header {
+    background-color: #4d004d;
+    background-image: url('img/cudi-wall.png');
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 60px;
+    max-width: 1200px;
+}
+
+
+@font-face {
+    font-family: Nunito;
+    src:
+        url("font/nunito/Nunito-Bold.ttf");
+}
